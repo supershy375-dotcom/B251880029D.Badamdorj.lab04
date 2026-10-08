@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатори 04: Gothic Portal Layout</title>
+    <!-- Google Fonts: Cinzel & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Flexbox Navigation -->
+    <header class="gothic-header">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>GOTHIC PORTAL</h1>
+                <span class="badge">Lab 04</span>
+            </div>
+            <nav class="gothic-nav">
+                <ul>
+                    <li><a href="#" class="active">Нүүр</a></li>
+                    <li><a href="#">Анкет засах</a></li>
+                    <li><a href="#">Архив</a></li>
+                    <li><a href="#">Тусламж</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area: Grid Layout -->
+    <div class="layout-wrapper">
+        <main class="main-content">
+            <section class="hero-section">
+                <h2>Мэдээллийн Хангалт ба Сүүдрийн Сан</h2>
+                <p>CSS Flexbox болон CSS Grid системүүдийг хослуулан бүтээсэн Dark Gothic загварын веб макет.</p>
+            </section>
+
+            <!-- 3 Баганатай Grid Карт хэсэг -->
+            <section class="cards-grid">
+                <article class="gothic-card">
+                    <div class="card-tag">HTML5 / CSS3</div>
+                    <h3>Веб Зохиомж</h3>
+                    <p>Сүлжээний бүтцийг Flexbox болон Grid ашиглан элементүүдийг тэнцвэртэй байрлуулна.</p>
+                    <a href="#" class="card-btn">Дэлгэрэнгүй</a>
+                </article>
+
+                <article class="gothic-card">
+                    <div class="card-tag">SQL / DB</div>
+                    <h3>Мэдээллийн Сан</h3>
+                    <p>Бүтэцлэгдсэн өгөгдлийг хадгалах, сүүдрийн системд өгөгдөл индексжүүлэх боловсруулалт.</p>
+                    <a href="#" class="card-btn">Дэлгэрэнгүй</a>
+                </article>
+
+                <article class="gothic-card">
+                    <div class="card-tag">ALGORITHM</div>
+                    <h3>Алгоритм ба Код</h3>
+                    <p>Өгөгдлийн бүтэц болон цогц системүүдийн гүйцэтгэлийг хамгийн дээд шатанд оптимизац хийх.</p>
+                    <a href="#" class="card-btn">Дэлгэрэнгүй</a>
+                </article>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h3>Миний сонирхол</h3>
+                <ul class="gothic-list">
+                    <li>Dark Gothic Вэб Дизайн</li>
+                    <li>Код Оптимизаци</li>
+                    <li>Кино ба Мультимедиа</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>Статистик</h3>
+                <table class="gothic-table">
+                    <thead>
+                        <tr>
+                            <th>Хичээл</th>
+                            <th>Оноо</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Веб зохиомж</td>
+                            <td><span class="score high">95</span></td>
+                        </tr>
+                        <tr>
+                            <td>Мэдээллийн сан</td>
+                            <td><span class="score mid">88</span></td>
+                        </tr>
+                        <tr>
+                            <td>Алгоритм</td>
+                            <td><span class="score high">92</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="gothic-footer">
+        <p>&copy; 2026 Dark Gothic Portal. Бүх эрх хуулиар хамгаалагдсан.</p>
+    </footer>
+
+</body>
+</html>
